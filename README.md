@@ -140,13 +140,6 @@ social_media:
 
 Links to your profile for each of the services you define will appear in the `<header>` of your website, appended to your bio. And if those services support sharing, any blog posts that you publish will include links to share that post using each social media service.
 
-**Note**: This feature is supported by two files in your repository:
-
-- `/_data/social_media.yml`: Defines each of the supported services, including variable name, display name, URL path, and SVG icon.
-- `/_includes/social_media_share_url.html`: Outputs the share URL required for any of the supported social media services that support sharing URLs.
-
-If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
-
 ## Adding pages
 
 To **add a page** to your website (e.g. detailed resume):
