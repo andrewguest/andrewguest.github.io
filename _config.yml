@@ -54,21 +54,6 @@ topics:
   - name: FastAPI
     web_url: https://github.com/topics/fastapi
     image_url: https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png
-
-  - name: Elixir
-    web_url: https://github.com/topics/elixir
-    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
-
-  - name: Phoenix
-    web_url: https://github.com/topics/phoenix
-    image_url: https://mpng.subpng.com/20180427/wtq/kisspng-elixir-programming-phoenix-productive-reliable-5ae37f21e64040.5461666215248586579431.jpg
-
-  - name: API
-    web_url: https://github.com/topics/api
-
-  - name: JSON
-    web_url: https://github.com/topics/json
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png
   
   - name: Linux
     web_url: https://github.com/topics/linux
@@ -81,3 +66,6 @@ topics:
   - name: GraphQL
     web_url: https://github.com/topics/graphql
     image_url: https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png
+
+  - name: API
+    web_url: https://github.com/topics/api
