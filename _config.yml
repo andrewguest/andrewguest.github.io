@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -54,18 +53,28 @@ topics:
   - name: FastAPI
     web_url: https://github.com/topics/fastapi
     image_url: https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png
-  
+
   - name: Linux
     web_url: https://github.com/topics/linux
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png
- 
+
   - name: MongoDB
     web_url: https://github.com/topics/mongodb
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png
- 
+
   - name: GraphQL
     web_url: https://github.com/topics/graphql
     image_url: https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png
 
   - name: API
     web_url: https://github.com/topics/api
+
+subdomains:
+  - name: Anime API
+    description: API created with FastAPI and Beanie to connect to a MongoDB database for storing anime shows and movies.
+    subdomain_url: https://fastapi-beanie-mongodb.aguest.me/docs#/
+    technologies:
+      - FastAPI
+      - MongoDB
+      - Beanie
+      - Caddy web server
