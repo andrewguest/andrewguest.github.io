@@ -11,10 +11,10 @@
 
     <!-- Technologies section -->
     {% if subdomain.technologies %}
-      <p class="f3 lh-condensed text-left link-gray-dark mb-0 mt-1">Tech stack for this project:</p>
-      <ul>
+      <p class="f3 lh-condensed text-left link-gray-dark mb-0 mt-3">Tech stack for this project:</p>
+      <ul class="lh-condensed text-left link-gray-dark">
         {% for tech in subdomain.technologies %}
-          <li>{{ tech }}</li>
+          <li class="f5 text-left mt-2">{{ tech }}</li>
         {% endfor %}
       </ul>
     {% endif %}
