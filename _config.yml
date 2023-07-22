@@ -72,7 +72,7 @@ topics:
 subdomains:
   - name: Anime API
     description: API created with FastAPI and Beanie to connect to a MongoDB database for storing anime shows and movies.
-    subdomain_url: https://fastapi-beanie-mongodb.aguest.me/docs#/
+    subdomain_url: https://anime-api.aguest.me/docs#/
     technologies:
       - FastAPI
       - MongoDB
