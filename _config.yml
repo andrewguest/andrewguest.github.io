@@ -77,4 +77,10 @@ subdomains:
       - FastAPI
       - MongoDB
       - Beanie
-      - Caddy web server
+
+  - name: WebSocket API
+    description: API created with FastAPI to show how to work with WebSockets
+    subdomain_url: https://websocket.aguest.me/
+    technologies:
+      - FastAPI
+      - WebSockets
