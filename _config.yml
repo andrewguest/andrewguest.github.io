@@ -54,6 +54,14 @@ topics:
     web_url: https://github.com/topics/fastapi
     image_url: https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png
 
+  - name: Svelte
+    web_url: https://github.com/topics/svelte
+    image_url: https://raw.githubusercontent.com/github/explore/42198dc9113595ddd22cc12771bb719c8cf08b67/topics/svelte/svelte.png
+
+  - name: Flutter
+    web_url: https://github.com/topics/flutter
+    image_url: https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png
+
   - name: Linux
     web_url: https://github.com/topics/linux
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png
@@ -65,9 +73,6 @@ topics:
   - name: GraphQL
     web_url: https://github.com/topics/graphql
     image_url: https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png
-
-  - name: API
-    web_url: https://github.com/topics/api
 
 subdomains:
   - name: Anime API
