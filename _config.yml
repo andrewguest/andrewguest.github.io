@@ -84,3 +84,17 @@ subdomains:
     technologies:
       - FastAPI
       - WebSockets
+
+  - name: MovieShelf
+    description: Web app for showing my movie and TV show collection.
+    subdomain_url: https://movie-shelf.aguest.me/
+    technologies:
+      - SvelteKit
+      - Tailwind CSS
+
+  - name: MovieShelf API
+    description: API to support the MovieShelf frontend
+    subdomain_url: https://movie-shelf-api.aguest.me/movies
+    technologies:
+      - FastAPI
+      - PostgreSQL
