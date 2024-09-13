@@ -67,13 +67,12 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png
 
 subdomains:
-  # - name: Anime API
-  #   description: API created with FastAPI and Beanie to connect to a MongoDB database for storing anime shows and movies.
-  #   subdomain_url: https://anime-api.aguest.me/docs#/
-  #   technologies:
-  #     - FastAPI
-  #     - MongoDB
-  #     - Beanie
+  - name: Quotes API
+    description: API created with FastAPI that returns random quotes. This API runs on a Kubernetes cluster.
+    subdomain_url: https://ruling-monkey-certainly.ngrok-free.app/quotes-api/quotes
+    technologies:
+      - FastAPI
+      - Kubernetes
 
   # - name: WebSocket API
   #   description: API created with FastAPI to show how to work with WebSockets
